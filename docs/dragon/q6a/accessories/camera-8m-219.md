@@ -65,17 +65,17 @@ sudo ldconfig
 
 ### 修改配置文件
 
-修改 `/usr/local/share/libcamera/ipa/simple/imx219.yaml`文件。
+修改 `/usr/local/share/libcamera/src/ipa/simple/data/imx219.yaml`文件。
 
 <NewCodeBlock tip='radxa@dragon-q6a$' type="device">
 
 ```bash
-sudo nano /usr/local/share/libcamera/ipa/simple/imx219.yaml
+sudo nano /usr/local/share/libcamera/src/ipa/simple/data/imx219.yaml
 ```
 
 </NewCodeBlock>
 
-将下面内容复制到 `/usr/local/share/libcamera/ipa/simple/imx219.yaml`文件。
+将下面内容复制到 `/usr/local/share/libcamera/src/ipa/simple/data/imx219.yaml`文件。
 
 ```bash
 # SPDX-License-Identifier: CC0-1.0
